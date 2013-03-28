@@ -2,10 +2,10 @@
 abstract: 'detect outdated CPAN modules in your environment.'
 author:
   - 'Tokuhiro Matsuno'
-build_requires:
-  ExtUtils::MakeMaker: 0
+build_requires: {}
 configure_requires:
-  Module::Build::Tiny: 0
+  CPAN::Meta: 0
+  Module::Build: 0.4
 dynamic_config: 0
 generated_by: 'Minilla/v0.0.49, CPAN::Meta::Converter version 2.120921'
 license: perl
@@ -16,10 +16,9 @@ name: cpan-outdated
 provides:
   App::cpanoutdated:
     file: lib/App/cpanoutdated.pm
-    version: 0.27
+    version: 0.28
 requires:
   CPAN::DistnameInfo: 0.1
-  ExtUtils::MakeMaker: 6.56
   IO::Zlib: 0
   LWP: 0
   Module::CoreList: 0
@@ -31,4 +30,4 @@ resources:
   bugtracker: https://github.com/tokuhirom/cpan-outdated/issues
   homepage: https://github.com/tokuhirom/cpan-outdated
   repository: git://github.com/tokuhirom/cpan-outdated.git
-version: 0.27
+version: 0.28

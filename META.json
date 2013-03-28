@@ -12,34 +12,29 @@
    },
    "name" : "cpan-outdated",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : 0
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : 0
+            "CPAN::Meta" : "0",
+            "Module::Build" : "0.4"
          }
       },
       "runtime" : {
          "requires" : {
             "CPAN::DistnameInfo" : "0.1",
-            "ExtUtils::MakeMaker" : "6.56",
-            "IO::Zlib" : 0,
-            "LWP" : 0,
-            "Module::CoreList" : 0,
+            "IO::Zlib" : "0",
+            "LWP" : "0",
+            "Module::CoreList" : "0",
             "Module::Metadata" : "1.000007",
             "local::lib" : "1.006008",
             "perl" : "5.008001",
-            "version" : 0
+            "version" : "0"
          }
       }
    },
    "provides" : {
       "App::cpanoutdated" : {
          "file" : "lib/App/cpanoutdated.pm",
-         "version" : "0.27"
+         "version" : "0.28"
       }
    },
    "release_status" : "stable",
@@ -53,5 +48,5 @@
          "web" : "https://github.com/tokuhirom/cpan-outdated"
       }
    },
-   "version" : "0.27"
+   "version" : "0.28"
 }
