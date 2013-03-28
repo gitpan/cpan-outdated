@@ -36,7 +36,12 @@
          }
       }
    },
-   "provides" : {},
+   "provides" : {
+      "App::cpanoutdated" : {
+         "file" : "lib/App/cpanoutdated.pm",
+         "version" : "0.26"
+      }
+   },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
@@ -48,5 +53,5 @@
          "web" : "https://github.com/tokuhirom/cpan-outdated"
       }
    },
-   "version" : "0.25"
+   "version" : "0.26"
 }

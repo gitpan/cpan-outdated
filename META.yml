@@ -13,7 +13,10 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: cpan-outdated
-provides: {}
+provides:
+  App::cpanoutdated:
+    file: lib/App/cpanoutdated.pm
+    version: 0.26
 requires:
   CPAN::DistnameInfo: 0.1
   ExtUtils::MakeMaker: 6.56
@@ -28,4 +31,4 @@ resources:
   bugtracker: https://github.com/tokuhirom/cpan-outdated/issues
   homepage: https://github.com/tokuhirom/cpan-outdated
   repository: git://github.com/tokuhirom/cpan-outdated.git
-version: 0.25
+version: 0.26
