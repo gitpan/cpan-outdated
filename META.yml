@@ -16,7 +16,7 @@ name: cpan-outdated
 provides:
   App::cpanoutdated:
     file: lib/App/cpanoutdated.pm
-    version: 0.26
+    version: 0.27
 requires:
   CPAN::DistnameInfo: 0.1
   ExtUtils::MakeMaker: 6.56
@@ -31,4 +31,4 @@ resources:
   bugtracker: https://github.com/tokuhirom/cpan-outdated/issues
   homepage: https://github.com/tokuhirom/cpan-outdated
   repository: git://github.com/tokuhirom/cpan-outdated.git
-version: 0.26
+version: 0.27
